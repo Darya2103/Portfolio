@@ -1,129 +1,113 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Darya </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Version 3</title>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-    <link href="style.css" type="text/css" rel="stylesheet">
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-
-    <script type="text/javascript">
-        $(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() != 0) {
-                    $('#toTop').fadeIn();
-                } else {
-                    $('#toTop').fadeOut();
-                }
-            });
-            $('#toTop').click(function () {
-                $('body,html').animate({ scrollTop: 0 }, 800);
-            });
-        });
-
-        // 2460
-    </script>
+    <link href="style.css" rel="stylesheet">
 
 </head>
 
-<body bgcolor="#1a1a1a">
-<div class="header">
+<body>
 
-    <!-- <div class="bg" align="right">
-        <img src="Image/1234.jpg" alt="" width="1346px" height="550px">
-    </div> -->
+    <nav>
+        <div id="menu">
+            <img class="menu_img" src="menu.png" alt="">
+        </div>
+        <img class="logo" src="Dara.png" alt="">
+        <div id="but">
+            <a class="tome" >ОБО МНЕ</a>
+            <a class="tosets"> СЕТЫ</a>
+            <a class="tologos">ЛОГО</a>
+            <a class="toill">ИЛЛЮСТРАЦИЯ</a>
+        </div>
+        <div id="mobile">
+            <a class="mtoill">ИЛЛЮСТРАЦИЯ</a><br>
+            <a class="mtologos" >ЛОГО</a><br>
+            <a class="mtosets">СЕТЫ</a><br>
+            <a class="mtome">ОБО МНЕ</a>
+        </div>
+    </nav>
 
-    <div class="head_buttom">
-        <a class="but" href="#TB"> Photoshop </a>
-        <a class="but" href="#SB"> Illustrator </a>
-        <a class="but" href="#FB"> О себе</a>
+    <div id="block">
+        <div class="dara">
+            <h1>DARA</h1>
+        </div>
+        <div class="graf">
+            <h2>Графический дизайнер</h2>
+        </div>
     </div>
 
-    <div class="hello">
-        Здравствуйте! 
-    </div>
+    <div class="head"></div> 
 
-    <div class="name">
-        Меня зовут Дарья
-        <br/> Я  &nbsp;<b>2D-художник</b>
-    </div>
-  
-</div>
-    
-    <br />
-    <br />
-
-<div class="Img" id="TB">
-        <hr color="#333" size="0.5%">
-        <p class="title">Photoshop</p>
-
-        <hr color="#333" size="0.5%">
-        <br />
-
-        <div class="fotorama" data-nav="thumbs">
-            <a href="Image/1.jpg"><img src="Iamge/01.jpg"></a>
-            <a href="Image/6.jpg"><img src="Image/06.jpg"></a>
-            <a href="Image/2.jpg"><img src="Image/02.jpg"></a>
-            <a href="Image/3.jpg"><img src="Image/03.jpg"></a>
-            <a href="Image/5.jpg"><img src="Image/05.jpg"></a>
-            <a href="Image/4.jpg"><img src="Image/04.jpg"></a>
+    <div id="all">
+     
+        <div id="ill">
+            <p>ИЛЛЮСТРАЦИЯ</p>
+            <div class="fotorama" data-width="800" data-height="450" data-allowfullscreen="true">
+                <a> <img src="il/1.jpg"> </a>
+                <a> <img src="il/2.jpg"> </a>
+                <a> <img src="il/3.jpg"> </a>
+                <a> <img src="il/4.jpg"> </a>
+                <a> <img src="il/5.jpg"> </a>
+                <a> <img src="il/6.jpg"> </a>
+                <a> <img src="il/7.jpg"> </a>
+            </div>
         </div>
 
-        <br />
-        
-
-    <div class="Img" id="SB">
-            <hr color="#333" size="0.5%">
-            <p class="title">Illustrator</p>
-
-            <hr color="#333" size="0.5%">
-            <br />
-
-            <div class="fotorama" data-nav="thumbs">
-                <a href="img ill/2.png"><img src="img ill/2.png"></a>
-                <a href="img ill/Label.jpg"><img src="img ill/Label.jpg"></a>
-                <a href="img ill/background2.png"><img src="img ill/background2.png"></a>
-                <a href="img ill/1.png"><img src="img ill/1.png"></a>
-                <a href="img ill/Mountains.png"><img src="img ill/Mountains.png"></a>
-                <a href="img ill/3.png"><img src="img ill/3.png"></a>
+        <div id="logos">
+            <p>ЛОГО</p>
+            <div class="fotorama" data-width="800" data-height="450" data-allowfullscreen="true">
+                <a> <img src="logo/1.jpg"> </a>
+                <a> <img src="logo/2.jpg"> </a>
+                <a> <img src="logo/3.png"> </a>
+                <a> <img src="logo/4.jpg"> </a>
             </div>
+        </div>
 
-    </div>
+        <div id="sets">
+            <p>СЕТЫ</p>
+            <div class="fotorama" data-width="800" data-height="450" data-allowfullscreen="true">
+                <a> <img src="sets/1.jpg"> </a>
+                <a> <img src="sets/2.jpg"> </a>
+                <a> <img src="sets/3.jpg"> </a>
+            </div>
+        </div>
 
-    <div id="FB">
-        <hr color="#333" size="0.5%">
-        <p class="title">Информация о себе:</p>
-        <hr color="#333" size="0.5%">
-    </div>
+        <p>ОБО МНЕ</p>
 
-    <div class="img_me">
-        <img src="Image/me_600.png" alt="Darya" width="280" ; height="280" ;>
-    </div>
-
-    <div class="cont">
-        <img src="img ill/Mail.png" width="40" ; height="30"> &nbsp; DariaNik0@yandex.by 
-        <br /> 
-        <br /> 22 года.
-        <br /> Живу в г. Минск
-        <br /> Рисую больше 3 лет. 
-        <br /> Создаю тематические картинки для книг и журналов, иллюстрации 
-        <br/>  для сайтов и многое другое.
-        <br /> Работаю с программами <b>Adobe Illustrator</b> и <b>Adobe Photoshop</b>.
-        <br />
-    </div>
-  
-
+        <div id="me">
+            <table>
+                <tr>
+                    <td><img class="ph" src="me.png" alt=""></td>
+                    <td></td>
+                    <td>
+                        <img src="Mail.png" width="40" ; height="30"> &nbsp; DariaNik0@yandex.by 
+                        <br /> 
+                        <br /> 22 года.
+                        <br /> Живу в г. Минск
+                        <br /> Занимаюсь рисованием более 3 лет. 
+                        <br /> Создаю тематические изображения для книг и журналов, логотипы, иллюстрации 
+                        <br/>  для сайтов и многое другое.
+                        <br /> Работаю с программами <b>Adobe Illustrator</b> и <b>Adobe Photoshop</b>.
+                        <br /></td>
+                </tr>
+            </table>
+            
+        </div>
         
+        <div class="footer"> · 2021 Минск · </div>
+    </div>
 
-        <hr color="#333" size="0.5%">
-
-        <div class="foot">DariaNik0@yandex.by 
-            <br />2021</div>
-        <div ID="toTop"> ^ </div>
-
+    <div id="totop">^</div>
+    <script src="script.js"></script>
 </body>
 
 </html>
