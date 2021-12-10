@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
 
-        if ($(window).scrollTop() > 500) {
+        if ($(window).scrollTop() > 680) {
 
             $('a').css('color', 'rgb(218, 218, 218)')
         }
@@ -68,7 +68,7 @@ b3.addEventListener('click', () => {
 })
 
 var b4 = document.querySelector('.tome');
-var to4 = document.querySelector('#me');
+var to4 = document.querySelector('#proj');
 b4.addEventListener('click', () => {
     scrollTo(to4);
 })

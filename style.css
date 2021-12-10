@@ -97,7 +97,7 @@ nav>a {
 }
 
 .head {
-    background-image: url("1234.jpg");
+    background-image: url("12345.jpg");
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -140,17 +140,25 @@ nav>a {
 #all {
      margin-left: 50%;
     transform: translate(-50%,0);
+    /*background-color:rgb(33, 32, 29);
+    padding-left: 20px;
+    padding-right: 20px;*/
 }
 
-#me {
+/*#me {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    /* font-weight:200; */
+    font-weight:200; 
     color: rgb(218, 218, 218);
     letter-spacing: 1px;
     padding-bottom: 20px;
     float: left;
+}*/
+
+#proj {
+
 }
+
 .ph {
     width: 250px;
     height: 250px;
